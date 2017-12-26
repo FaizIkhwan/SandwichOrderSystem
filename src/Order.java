@@ -1136,30 +1136,35 @@ public class Order extends javax.swing.JFrame {
 
     private void sizeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sizeActionPerformed
         closeMenu();
+        clearCart.setVisible(false);
         panelMenu.setVisible(true);                
         sizePanel.setVisible(true);
     }//GEN-LAST:event_sizeActionPerformed
 
     private void breadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_breadActionPerformed
         closeMenu();
+        clearCart.setVisible(false);
         panelMenu.setVisible(true); 
         breadPanel.setVisible(true);
     }//GEN-LAST:event_breadActionPerformed
 
     private void flavourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_flavourActionPerformed
         closeMenu();
+        clearCart.setVisible(false);
         panelMenu.setVisible(true);
         flavourPanel.setVisible(true);
     }//GEN-LAST:event_flavourActionPerformed
 
     private void veggieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_veggieActionPerformed
         closeMenu();
+        clearCart.setVisible(false);
         panelMenu.setVisible(true);
         veggiePanel.setVisible(true);
     }//GEN-LAST:event_veggieActionPerformed
 
     private void sosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sosActionPerformed
         closeMenu();
+        clearCart.setVisible(false);
         panelMenu.setVisible(true);
         sosPanel.setVisible(true);
     }//GEN-LAST:event_sosActionPerformed
@@ -1182,6 +1187,7 @@ public class Order extends javax.swing.JFrame {
 
     private void addonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addonActionPerformed
         closeMenu();
+        clearCart.setVisible(false);
         panelMenu.setVisible(true);
         addonPanel.setVisible(true);
     }//GEN-LAST:event_addonActionPerformed
