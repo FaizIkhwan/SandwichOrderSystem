@@ -86,6 +86,12 @@ public class Order extends javax.swing.JFrame {
         addon = new javax.swing.JButton();
         panelMenu = new javax.swing.JPanel();
         veggiePanel = new javax.swing.JPanel();
+        RBveggie1 = new javax.swing.JCheckBox();
+        RBveggie2 = new javax.swing.JCheckBox();
+        RBveggie3 = new javax.swing.JCheckBox();
+        RBveggie4 = new javax.swing.JCheckBox();
+        RBveggie5 = new javax.swing.JCheckBox();
+        RBveggie6 = new javax.swing.JCheckBox();
         jLabel13 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -94,19 +100,13 @@ public class Order extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         exitVegie = new javax.swing.JButton();
         jLabel36 = new javax.swing.JLabel();
-        RBveggie1 = new javax.swing.JRadioButton();
-        RBveggie2 = new javax.swing.JRadioButton();
-        RBveggie3 = new javax.swing.JRadioButton();
-        RBveggie4 = new javax.swing.JRadioButton();
-        RBveggie5 = new javax.swing.JRadioButton();
-        RBveggie6 = new javax.swing.JRadioButton();
         sizePanel = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         exitSize = new javax.swing.JButton();
         jLabel33 = new javax.swing.JLabel();
-        RBsize1 = new javax.swing.JCheckBox();
-        RBsize2 = new javax.swing.JCheckBox();
+        RBsize1 = new javax.swing.JRadioButton();
+        RBsize2 = new javax.swing.JRadioButton();
         breadPanel = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -114,38 +114,38 @@ public class Order extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         exitBread = new javax.swing.JButton();
         jLabel34 = new javax.swing.JLabel();
-        RBbread1 = new javax.swing.JCheckBox();
-        RBbread2 = new javax.swing.JCheckBox();
-        RBbread3 = new javax.swing.JCheckBox();
-        RBbread4 = new javax.swing.JCheckBox();
+        RBbread1 = new javax.swing.JRadioButton();
+        RBbread2 = new javax.swing.JRadioButton();
+        RBbread3 = new javax.swing.JRadioButton();
+        RBbread4 = new javax.swing.JRadioButton();
         addonPanel = new javax.swing.JPanel();
+        RBaddon1 = new javax.swing.JRadioButton();
+        RBaddon2 = new javax.swing.JRadioButton();
+        RBaddon3 = new javax.swing.JRadioButton();
+        RBaddon4 = new javax.swing.JRadioButton();
+        RBaddon5 = new javax.swing.JRadioButton();
         jLabel23 = new javax.swing.JLabel();
-        RBaddon4 = new javax.swing.JCheckBox();
         jLabel26 = new javax.swing.JLabel();
-        RBaddon3 = new javax.swing.JCheckBox();
         jLabel25 = new javax.swing.JLabel();
         exitAddon = new javax.swing.JButton();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
-        RBaddon1 = new javax.swing.JCheckBox();
-        RBaddon2 = new javax.swing.JCheckBox();
-        RBaddon5 = new javax.swing.JCheckBox();
         flavourPanel = new javax.swing.JPanel();
+        RBflavour1 = new javax.swing.JRadioButton();
+        RBflavour2 = new javax.swing.JRadioButton();
+        RBflavour3 = new javax.swing.JRadioButton();
+        RBflavour4 = new javax.swing.JRadioButton();
+        RBflavour5 = new javax.swing.JRadioButton();
+        RBflavour6 = new javax.swing.JRadioButton();
         jLabel35 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        RBflavour2 = new javax.swing.JCheckBox();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        RBflavour5 = new javax.swing.JCheckBox();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         exitFlavour = new javax.swing.JButton();
-        RBflavour1 = new javax.swing.JCheckBox();
-        RBflavour3 = new javax.swing.JCheckBox();
-        RBflavour4 = new javax.swing.JCheckBox();
-        RBflavour6 = new javax.swing.JCheckBox();
         sosPanel = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
@@ -153,10 +153,10 @@ public class Order extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         exitSos = new javax.swing.JButton();
         jLabel37 = new javax.swing.JLabel();
-        RBsos1 = new javax.swing.JRadioButton();
-        RBsos2 = new javax.swing.JRadioButton();
-        RBsos3 = new javax.swing.JRadioButton();
-        RBsos4 = new javax.swing.JRadioButton();
+        RBsos1 = new javax.swing.JCheckBox();
+        RBsos2 = new javax.swing.JCheckBox();
+        RBsos3 = new javax.swing.JCheckBox();
+        RBsos4 = new javax.swing.JCheckBox();
         cartPanel = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         cartLabel = new javax.swing.JLabel();
@@ -279,6 +279,42 @@ public class Order extends javax.swing.JFrame {
         veggiePanel.setBackground(new java.awt.Color(32, 177, 74));
         veggiePanel.setLayout(null);
 
+        RBveggie1.setBackground(new java.awt.Color(32, 177, 74));
+        RBveggie1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBveggie1.setText("Tomato");
+        veggiePanel.add(RBveggie1);
+        RBveggie1.setBounds(30, 130, 120, 25);
+
+        RBveggie2.setBackground(new java.awt.Color(32, 177, 74));
+        RBveggie2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBveggie2.setText("Onion");
+        veggiePanel.add(RBveggie2);
+        RBveggie2.setBounds(400, 130, 120, 25);
+
+        RBveggie3.setBackground(new java.awt.Color(32, 177, 74));
+        RBveggie3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBveggie3.setText("Cucumber");
+        veggiePanel.add(RBveggie3);
+        RBveggie3.setBounds(30, 250, 120, 25);
+
+        RBveggie4.setBackground(new java.awt.Color(32, 177, 74));
+        RBveggie4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBveggie4.setText("Green Pepper");
+        veggiePanel.add(RBveggie4);
+        RBveggie4.setBounds(400, 250, 120, 25);
+
+        RBveggie5.setBackground(new java.awt.Color(32, 177, 74));
+        RBveggie5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBveggie5.setText("Olive");
+        veggiePanel.add(RBveggie5);
+        RBveggie5.setBounds(30, 400, 120, 25);
+
+        RBveggie6.setBackground(new java.awt.Color(32, 177, 74));
+        RBveggie6.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBveggie6.setText("Lettuce");
+        veggiePanel.add(RBveggie6);
+        RBveggie6.setBounds(400, 400, 120, 25);
+
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/onion.jpg"))); // NOI18N
         veggiePanel.add(jLabel13);
         jLabel13.setBounds(380, 40, 220, 90);
@@ -319,42 +355,6 @@ public class Order extends javax.swing.JFrame {
         veggiePanel.add(jLabel36);
         jLabel36.setBounds(10, 10, 240, 17);
 
-        RBveggie1.setBackground(new java.awt.Color(32, 177, 74));
-        RBveggie1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBveggie1.setText("Tomato");
-        veggiePanel.add(RBveggie1);
-        RBveggie1.setBounds(30, 130, 130, 25);
-
-        RBveggie2.setBackground(new java.awt.Color(32, 177, 74));
-        RBveggie2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBveggie2.setText("Onion");
-        veggiePanel.add(RBveggie2);
-        RBveggie2.setBounds(390, 130, 130, 25);
-
-        RBveggie3.setBackground(new java.awt.Color(32, 177, 74));
-        RBveggie3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBveggie3.setText("Cucumber");
-        veggiePanel.add(RBveggie3);
-        RBveggie3.setBounds(30, 260, 130, 25);
-
-        RBveggie4.setBackground(new java.awt.Color(32, 177, 74));
-        RBveggie4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBveggie4.setText("Green Pepper");
-        veggiePanel.add(RBveggie4);
-        RBveggie4.setBounds(390, 260, 130, 25);
-
-        RBveggie5.setBackground(new java.awt.Color(32, 177, 74));
-        RBveggie5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBveggie5.setText("Olive");
-        veggiePanel.add(RBveggie5);
-        RBveggie5.setBounds(30, 410, 130, 25);
-
-        RBveggie6.setBackground(new java.awt.Color(32, 177, 74));
-        RBveggie6.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBveggie6.setText("Lettuce");
-        veggiePanel.add(RBveggie6);
-        RBveggie6.setBounds(390, 410, 130, 25);
-
         panelMenu.add(veggiePanel, "card2");
 
         sizePanel.setBackground(new java.awt.Color(32, 177, 74));
@@ -387,24 +387,14 @@ public class Order extends javax.swing.JFrame {
         RBsize1.setBackground(new java.awt.Color(32, 177, 74));
         RBsize1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBsize1.setText("<html>6 Inch<br>RM10.90</html>");
-        RBsize1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBsize1ActionPerformed(evt);
-            }
-        });
         sizePanel.add(RBsize1);
-        RBsize1.setBounds(90, 260, 100, 40);
+        RBsize1.setBounds(80, 250, 130, 43);
 
         RBsize2.setBackground(new java.awt.Color(32, 177, 74));
         RBsize2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBsize2.setText("<html>12 Inch<br>+RM4.00</html>");
-        RBsize2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBsize2ActionPerformed(evt);
-            }
-        });
         sizePanel.add(RBsize2);
-        RBsize2.setBounds(430, 260, 100, 40);
+        RBsize2.setBounds(420, 240, 130, 50);
 
         panelMenu.add(sizePanel, "card3");
 
@@ -446,81 +436,69 @@ public class Order extends javax.swing.JFrame {
         RBbread1.setBackground(new java.awt.Color(32, 177, 74));
         RBbread1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBbread1.setText("Wheat");
-        RBbread1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBbread1ActionPerformed(evt);
-            }
-        });
         breadPanel.add(RBbread1);
-        RBbread1.setBounds(50, 170, 160, 25);
+        RBbread1.setBounds(50, 150, 140, 40);
 
         RBbread2.setBackground(new java.awt.Color(32, 177, 74));
         RBbread2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBbread2.setText("Honey Oat");
-        RBbread2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBbread2ActionPerformed(evt);
-            }
-        });
         breadPanel.add(RBbread2);
-        RBbread2.setBounds(400, 170, 160, 25);
+        RBbread2.setBounds(390, 150, 140, 40);
 
         RBbread3.setBackground(new java.awt.Color(32, 177, 74));
         RBbread3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBbread3.setText("Italian Bread Loaf");
-        RBbread3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBbread3ActionPerformed(evt);
-            }
-        });
         breadPanel.add(RBbread3);
-        RBbread3.setBounds(50, 330, 160, 25);
+        RBbread3.setBounds(50, 330, 140, 40);
 
         RBbread4.setBackground(new java.awt.Color(32, 177, 74));
         RBbread4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBbread4.setText("Parmesan");
-        RBbread4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBbread4ActionPerformed(evt);
-            }
-        });
         breadPanel.add(RBbread4);
-        RBbread4.setBounds(400, 330, 160, 25);
+        RBbread4.setBounds(390, 330, 140, 40);
 
         panelMenu.add(breadPanel, "card4");
 
         addonPanel.setBackground(new java.awt.Color(32, 177, 74));
         addonPanel.setLayout(null);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 1.jpg"))); // NOI18N
-        addonPanel.add(jLabel23);
-        jLabel23.setBounds(170, 50, 110, 130);
+        RBaddon1.setBackground(new java.awt.Color(32, 177, 74));
+        RBaddon1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBaddon1.setText("<html>Set 1<br>+RM2.00</html>");
+        addonPanel.add(RBaddon1);
+        RBaddon1.setBounds(170, 180, 130, 40);
 
-        RBaddon4.setBackground(new java.awt.Color(32, 177, 74));
-        RBaddon4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBaddon4.setText("<html>Set 4<br>+RM2.00</html>");
-        RBaddon4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBaddon4ActionPerformed(evt);
-            }
-        });
-        addonPanel.add(RBaddon4);
-        RBaddon4.setBounds(310, 350, 120, 40);
-
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 4.jpg"))); // NOI18N
-        addonPanel.add(jLabel26);
-        jLabel26.setBounds(290, 230, 90, 130);
+        RBaddon2.setBackground(new java.awt.Color(32, 177, 74));
+        RBaddon2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBaddon2.setText("<html>Set 2<br>+RM2.00</html>");
+        addonPanel.add(RBaddon2);
+        RBaddon2.setBounds(420, 180, 130, 40);
 
         RBaddon3.setBackground(new java.awt.Color(32, 177, 74));
         RBaddon3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBaddon3.setText("<html>Set 3<br>+RM2.00</html>");
-        RBaddon3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBaddon3ActionPerformed(evt);
-            }
-        });
         addonPanel.add(RBaddon3);
-        RBaddon3.setBounds(70, 350, 120, 40);
+        RBaddon3.setBounds(60, 350, 130, 40);
+
+        RBaddon4.setBackground(new java.awt.Color(32, 177, 74));
+        RBaddon4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBaddon4.setText("<html>Set 4<br>+RM2.00</html>");
+        addonPanel.add(RBaddon4);
+        RBaddon4.setBounds(290, 350, 130, 40);
+
+        RBaddon5.setBackground(new java.awt.Color(32, 177, 74));
+        RBaddon5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBaddon5.setText("Ala Carte");
+        addonPanel.add(RBaddon5);
+        RBaddon5.setBounds(500, 350, 130, 40);
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 1.jpg"))); // NOI18N
+        addonPanel.add(jLabel23);
+        jLabel23.setBounds(170, 50, 110, 130);
+
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 4.jpg"))); // NOI18N
+        addonPanel.add(jLabel26);
+        jLabel26.setBounds(290, 230, 90, 130);
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 3.jpg"))); // NOI18N
         addonPanel.add(jLabel25);
@@ -550,43 +528,46 @@ public class Order extends javax.swing.JFrame {
         addonPanel.add(jLabel38);
         jLabel38.setBounds(10, 10, 280, 17);
 
-        RBaddon1.setBackground(new java.awt.Color(32, 177, 74));
-        RBaddon1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBaddon1.setText("<html>Set 1<br>+RM2.00</html>");
-        RBaddon1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBaddon1ActionPerformed(evt);
-            }
-        });
-        addonPanel.add(RBaddon1);
-        RBaddon1.setBounds(180, 170, 120, 60);
-
-        RBaddon2.setBackground(new java.awt.Color(32, 177, 74));
-        RBaddon2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBaddon2.setText("<html>Set 2<br>+RM2.00</html>");
-        RBaddon2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBaddon2ActionPerformed(evt);
-            }
-        });
-        addonPanel.add(RBaddon2);
-        RBaddon2.setBounds(430, 180, 120, 40);
-
-        RBaddon5.setBackground(new java.awt.Color(32, 177, 74));
-        RBaddon5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBaddon5.setText("Ala Carte");
-        RBaddon5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBaddon5ActionPerformed(evt);
-            }
-        });
-        addonPanel.add(RBaddon5);
-        RBaddon5.setBounds(510, 360, 120, 25);
-
         panelMenu.add(addonPanel, "card8");
 
         flavourPanel.setBackground(new java.awt.Color(32, 177, 74));
         flavourPanel.setLayout(null);
+
+        RBflavour1.setBackground(new java.awt.Color(32, 177, 74));
+        RBflavour1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBflavour1.setText("Chicken Slice");
+        flavourPanel.add(RBflavour1);
+        RBflavour1.setBounds(30, 130, 130, 40);
+
+        RBflavour2.setBackground(new java.awt.Color(32, 177, 74));
+        RBflavour2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBflavour2.setText("<html>Roast Beef<br>+RM2.00</html>");
+        flavourPanel.add(RBflavour2);
+        RBflavour2.setBounds(400, 130, 130, 40);
+
+        RBflavour3.setBackground(new java.awt.Color(32, 177, 74));
+        RBflavour3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBflavour3.setText("Steak & Cheese");
+        flavourPanel.add(RBflavour3);
+        RBflavour3.setBounds(30, 260, 130, 40);
+
+        RBflavour4.setBackground(new java.awt.Color(32, 177, 74));
+        RBflavour4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBflavour4.setText("Tuna");
+        flavourPanel.add(RBflavour4);
+        RBflavour4.setBounds(400, 260, 130, 40);
+
+        RBflavour5.setBackground(new java.awt.Color(32, 177, 74));
+        RBflavour5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBflavour5.setText("<html>Turkey Breast<br>+RM2.00</html>");
+        flavourPanel.add(RBflavour5);
+        RBflavour5.setBounds(30, 400, 130, 40);
+
+        RBflavour6.setBackground(new java.awt.Color(32, 177, 74));
+        RBflavour6.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        RBflavour6.setText("Veggie Delite");
+        flavourPanel.add(RBflavour6);
+        RBflavour6.setBounds(400, 400, 130, 40);
 
         jLabel35.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel35.setText("Please select flavour that you want.");
@@ -596,17 +577,6 @@ public class Order extends javax.swing.JFrame {
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Chicken Slice.jpg"))); // NOI18N
         flavourPanel.add(jLabel6);
         jLabel6.setBounds(20, 20, 230, 110);
-
-        RBflavour2.setBackground(new java.awt.Color(32, 177, 74));
-        RBflavour2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBflavour2.setText("<html>Roast Beef<br>+RM2.00</html>");
-        RBflavour2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBflavour2ActionPerformed(evt);
-            }
-        });
-        flavourPanel.add(RBflavour2);
-        RBflavour2.setBounds(400, 120, 140, 40);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Roast Beef.jpg"))); // NOI18N
         flavourPanel.add(jLabel7);
@@ -619,17 +589,6 @@ public class Order extends javax.swing.JFrame {
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Tuna.jpg"))); // NOI18N
         flavourPanel.add(jLabel9);
         jLabel9.setBounds(370, 160, 220, 110);
-
-        RBflavour5.setBackground(new java.awt.Color(32, 177, 74));
-        RBflavour5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBflavour5.setText("<html>Turkey Breast<br>+RM2.00</html>");
-        RBflavour5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBflavour5ActionPerformed(evt);
-            }
-        });
-        flavourPanel.add(RBflavour5);
-        RBflavour5.setBounds(30, 400, 140, 40);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Turkey Breast.jpg"))); // NOI18N
         flavourPanel.add(jLabel10);
@@ -649,50 +608,6 @@ public class Order extends javax.swing.JFrame {
         });
         flavourPanel.add(exitFlavour);
         exitFlavour.setBounds(640, 10, 50, 50);
-
-        RBflavour1.setBackground(new java.awt.Color(32, 177, 74));
-        RBflavour1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBflavour1.setText("Chicken Slice");
-        RBflavour1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBflavour1ActionPerformed(evt);
-            }
-        });
-        flavourPanel.add(RBflavour1);
-        RBflavour1.setBounds(30, 130, 140, 25);
-
-        RBflavour3.setBackground(new java.awt.Color(32, 177, 74));
-        RBflavour3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBflavour3.setText("Steak & Cheese");
-        RBflavour3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBflavour3ActionPerformed(evt);
-            }
-        });
-        flavourPanel.add(RBflavour3);
-        RBflavour3.setBounds(30, 270, 140, 25);
-
-        RBflavour4.setBackground(new java.awt.Color(32, 177, 74));
-        RBflavour4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBflavour4.setText("Tuna");
-        RBflavour4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBflavour4ActionPerformed(evt);
-            }
-        });
-        flavourPanel.add(RBflavour4);
-        RBflavour4.setBounds(400, 270, 140, 25);
-
-        RBflavour6.setBackground(new java.awt.Color(32, 177, 74));
-        RBflavour6.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        RBflavour6.setText("Veggie Delite");
-        RBflavour6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                RBflavour6ActionPerformed(evt);
-            }
-        });
-        flavourPanel.add(RBflavour6);
-        RBflavour6.setBounds(400, 410, 140, 25);
 
         panelMenu.add(flavourPanel, "card5");
 
@@ -735,25 +650,25 @@ public class Order extends javax.swing.JFrame {
         RBsos1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBsos1.setText("Chili Sauce");
         sosPanel.add(RBsos1);
-        RBsos1.setBounds(90, 190, 120, 25);
+        RBsos1.setBounds(90, 190, 130, 25);
 
         RBsos2.setBackground(new java.awt.Color(32, 177, 74));
         RBsos2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBsos2.setText("Mayonnaise");
         sosPanel.add(RBsos2);
-        RBsos2.setBounds(420, 190, 120, 25);
+        RBsos2.setBounds(420, 190, 130, 25);
 
         RBsos3.setBackground(new java.awt.Color(32, 177, 74));
         RBsos3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBsos3.setText("Ketchup");
         sosPanel.add(RBsos3);
-        RBsos3.setBounds(90, 370, 120, 25);
+        RBsos3.setBounds(90, 360, 130, 25);
 
         RBsos4.setBackground(new java.awt.Color(32, 177, 74));
         RBsos4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         RBsos4.setText("Thousand Island");
         sosPanel.add(RBsos4);
-        RBsos4.setBounds(420, 370, 140, 25);
+        RBsos4.setBounds(420, 360, 130, 25);
 
         panelMenu.add(sosPanel, "card6");
 
@@ -1211,66 +1126,6 @@ public class Order extends javax.swing.JFrame {
        closeMenu();
     }//GEN-LAST:event_addCartActionPerformed
 
-    private void RBsize1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBsize1ActionPerformed
-        sizeSelectedFalse();
-        RBsize1.setSelected(true);
-    }//GEN-LAST:event_RBsize1ActionPerformed
-
-    private void RBsize2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBsize2ActionPerformed
-        sizeSelectedFalse();
-        RBsize2.setSelected(true);
-    }//GEN-LAST:event_RBsize2ActionPerformed
-
-    private void RBbread1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBbread1ActionPerformed
-        breadSelectedFalse();
-        RBbread1.setSelected(true);
-    }//GEN-LAST:event_RBbread1ActionPerformed
-
-    private void RBbread2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBbread2ActionPerformed
-        breadSelectedFalse();
-        RBbread2.setSelected(true);
-    }//GEN-LAST:event_RBbread2ActionPerformed
-
-    private void RBbread3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBbread3ActionPerformed
-        breadSelectedFalse();
-        RBbread3.setSelected(true);
-    }//GEN-LAST:event_RBbread3ActionPerformed
-
-    private void RBbread4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBbread4ActionPerformed
-        breadSelectedFalse();
-        RBbread4.setSelected(true);
-    }//GEN-LAST:event_RBbread4ActionPerformed
-
-    private void RBflavour1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBflavour1ActionPerformed
-        flavourSelectedFalse();
-        RBflavour1.setSelected(true);
-    }//GEN-LAST:event_RBflavour1ActionPerformed
-
-    private void RBflavour2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBflavour2ActionPerformed
-        flavourSelectedFalse();
-        RBflavour2.setSelected(true);
-    }//GEN-LAST:event_RBflavour2ActionPerformed
-
-    private void RBflavour3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBflavour3ActionPerformed
-        flavourSelectedFalse();
-        RBflavour3.setSelected(true);
-    }//GEN-LAST:event_RBflavour3ActionPerformed
-
-    private void RBflavour4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBflavour4ActionPerformed
-        flavourSelectedFalse();
-        RBflavour4.setSelected(true);
-    }//GEN-LAST:event_RBflavour4ActionPerformed
-
-    private void RBflavour5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBflavour5ActionPerformed
-        flavourSelectedFalse();
-        RBflavour5.setSelected(true);
-    }//GEN-LAST:event_RBflavour5ActionPerformed
-
-    private void RBflavour6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBflavour6ActionPerformed
-        flavourSelectedFalse();
-        RBflavour6.setSelected(true);
-    }//GEN-LAST:event_RBflavour6ActionPerformed
-
     private void viewCartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewCartActionPerformed
         closeMenu();
         panelMenu.setVisible(true);
@@ -1284,31 +1139,6 @@ public class Order extends javax.swing.JFrame {
         closeMenu();
         clearCart.setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void RBaddon1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBaddon1ActionPerformed
-        addonSelectedFalse();
-        RBaddon1.setSelected(true);
-    }//GEN-LAST:event_RBaddon1ActionPerformed
-
-    private void RBaddon2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBaddon2ActionPerformed
-        addonSelectedFalse();
-        RBaddon2.setSelected(true);
-    }//GEN-LAST:event_RBaddon2ActionPerformed
-
-    private void RBaddon3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBaddon3ActionPerformed
-        addonSelectedFalse();
-        RBaddon3.setSelected(true);
-    }//GEN-LAST:event_RBaddon3ActionPerformed
-
-    private void RBaddon4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBaddon4ActionPerformed
-        addonSelectedFalse();
-        RBaddon4.setSelected(true);
-    }//GEN-LAST:event_RBaddon4ActionPerformed
-
-    private void RBaddon5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RBaddon5ActionPerformed
-        addonSelectedFalse();
-        RBaddon5.setSelected(true);
-    }//GEN-LAST:event_RBaddon5ActionPerformed
 
     private void clearCartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearCartActionPerformed
         allVarInit();
@@ -1356,33 +1186,33 @@ public class Order extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JCheckBox RBaddon1;
-    private javax.swing.JCheckBox RBaddon2;
-    private javax.swing.JCheckBox RBaddon3;
-    private javax.swing.JCheckBox RBaddon4;
-    private javax.swing.JCheckBox RBaddon5;
-    private javax.swing.JCheckBox RBbread1;
-    private javax.swing.JCheckBox RBbread2;
-    private javax.swing.JCheckBox RBbread3;
-    private javax.swing.JCheckBox RBbread4;
-    private javax.swing.JCheckBox RBflavour1;
-    private javax.swing.JCheckBox RBflavour2;
-    private javax.swing.JCheckBox RBflavour3;
-    private javax.swing.JCheckBox RBflavour4;
-    private javax.swing.JCheckBox RBflavour5;
-    private javax.swing.JCheckBox RBflavour6;
-    private javax.swing.JCheckBox RBsize1;
-    private javax.swing.JCheckBox RBsize2;
-    private javax.swing.JRadioButton RBsos1;
-    private javax.swing.JRadioButton RBsos2;
-    private javax.swing.JRadioButton RBsos3;
-    private javax.swing.JRadioButton RBsos4;
-    private javax.swing.JRadioButton RBveggie1;
-    private javax.swing.JRadioButton RBveggie2;
-    private javax.swing.JRadioButton RBveggie3;
-    private javax.swing.JRadioButton RBveggie4;
-    private javax.swing.JRadioButton RBveggie5;
-    private javax.swing.JRadioButton RBveggie6;
+    private javax.swing.JRadioButton RBaddon1;
+    private javax.swing.JRadioButton RBaddon2;
+    private javax.swing.JRadioButton RBaddon3;
+    private javax.swing.JRadioButton RBaddon4;
+    private javax.swing.JRadioButton RBaddon5;
+    private javax.swing.JRadioButton RBbread1;
+    private javax.swing.JRadioButton RBbread2;
+    private javax.swing.JRadioButton RBbread3;
+    private javax.swing.JRadioButton RBbread4;
+    private javax.swing.JRadioButton RBflavour1;
+    private javax.swing.JRadioButton RBflavour2;
+    private javax.swing.JRadioButton RBflavour3;
+    private javax.swing.JRadioButton RBflavour4;
+    private javax.swing.JRadioButton RBflavour5;
+    private javax.swing.JRadioButton RBflavour6;
+    private javax.swing.JRadioButton RBsize1;
+    private javax.swing.JRadioButton RBsize2;
+    private javax.swing.JCheckBox RBsos1;
+    private javax.swing.JCheckBox RBsos2;
+    private javax.swing.JCheckBox RBsos3;
+    private javax.swing.JCheckBox RBsos4;
+    private javax.swing.JCheckBox RBveggie1;
+    private javax.swing.JCheckBox RBveggie2;
+    private javax.swing.JCheckBox RBveggie3;
+    private javax.swing.JCheckBox RBveggie4;
+    private javax.swing.JCheckBox RBveggie5;
+    private javax.swing.JCheckBox RBveggie6;
     private javax.swing.JButton addCart;
     private javax.swing.JButton addon;
     private javax.swing.JPanel addonPanel;
