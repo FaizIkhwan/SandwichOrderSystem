@@ -1,5 +1,5 @@
 # Subway Order System
-Group mini project for CSC435 Object Oriented Programming, FSKM UiTM SHAH ALAM, SELANGOR.
+Group mini project for CSC435 Object Oriented Programming, FSKM UiTM Shah Alam, Selangor.
 
 ## Description 
 This repository contains source code for our mini project 
