@@ -1,8 +1,8 @@
 # Subway Order System
-Group assignment for CSC435 Object Oriented Programming, FSKM UiTM SHAH ALAM, SELANGOR.
+Group mini project for CSC435 Object Oriented Programming, FSKM UiTM SHAH ALAM, SELANGOR.
 
 ## Description 
-This repository contains source code for our assignnment 
+This repository contains source code for our mini project 
 CSC435 Object Oriented Programming, FSKM UiTM Shah Alam. 
 Our lecturer's name is Madam Zulaile Mabni.
 
