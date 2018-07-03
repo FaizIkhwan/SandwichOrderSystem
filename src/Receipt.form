@@ -92,7 +92,7 @@
         <Component class="javax.swing.JButton" name="homeButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/buttonHome.png"/>
+              <Image iconType="3" name="/image/buttonHome.png"/>
             </Property>
           </Properties>
           <Events>
@@ -107,7 +107,7 @@
         <Component class="javax.swing.JButton" name="buttonExit">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/buttonX.png"/>
+              <Image iconType="3" name="/image/buttonX.png"/>
             </Property>
           </Properties>
           <Events>
@@ -252,7 +252,7 @@
         <Component class="javax.swing.JButton" name="buttonLeft">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/buttonLeft.png"/>
+              <Image iconType="3" name="/image/buttonLeft.png"/>
             </Property>
           </Properties>
           <Events>
@@ -267,7 +267,7 @@
         <Component class="javax.swing.JButton" name="buttonRight">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/buttonRight.png"/>
+              <Image iconType="3" name="/image/buttonRight.png"/>
             </Property>
           </Properties>
           <Events>

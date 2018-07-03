@@ -100,6 +100,7 @@ public class Order extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         exitVegie = new javax.swing.JButton();
         jLabel36 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
         sizePanel = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
@@ -196,9 +197,11 @@ public class Order extends javax.swing.JFrame {
         backgroundColour.add(cancel);
         cancel.setBounds(50, 550, 75, 25);
 
-        title.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ssuuub.jpg"))); // NOI18N
+        title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        title.setForeground(new java.awt.Color(255, 255, 255));
+        title.setText("Choose your sandwich");
         backgroundColour.add(title);
-        title.setBounds(330, 0, 220, 60);
+        title.setBounds(280, 0, 370, 70);
 
         panelSelection.setBackground(new java.awt.Color(255, 255, 51));
         panelSelection.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(255, 255, 255), new java.awt.Color(255, 255, 255), new java.awt.Color(255, 255, 255), new java.awt.Color(255, 255, 255)));
@@ -315,33 +318,31 @@ public class Order extends javax.swing.JFrame {
         veggiePanel.add(RBveggie6);
         RBveggie6.setBounds(400, 400, 120, 25);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/onion.jpg"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/onion.jpg"))); // NOI18N
         veggiePanel.add(jLabel13);
         jLabel13.setBounds(380, 40, 220, 90);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tomato.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/tomato.png"))); // NOI18N
         veggiePanel.add(jLabel12);
         jLabel12.setBounds(10, 40, 220, 90);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cucumber.jpg"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/cucumber.jpg"))); // NOI18N
         veggiePanel.add(jLabel14);
         jLabel14.setBounds(10, 160, 220, 90);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/green peppers.jpg"))); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/green peppers.jpg"))); // NOI18N
         veggiePanel.add(jLabel15);
         jLabel15.setBounds(360, 150, 220, 100);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olive.jpg"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/olive.jpg"))); // NOI18N
         veggiePanel.add(jLabel16);
         jLabel16.setBounds(10, 300, 230, 100);
-
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Lettuce230x110.jpg"))); // NOI18N
         veggiePanel.add(jLabel17);
-        jLabel17.setBounds(360, 300, 230, 110);
+        jLabel17.setBounds(360, 300, 230, 0);
 
         exitVegie.setBackground(new java.awt.Color(255, 255, 255));
         exitVegie.setForeground(new java.awt.Color(255, 51, 51));
-        exitVegie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        exitVegie.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         exitVegie.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitVegieActionPerformed(evt);
@@ -355,22 +356,26 @@ public class Order extends javax.swing.JFrame {
         veggiePanel.add(jLabel36);
         jLabel36.setBounds(10, 10, 240, 17);
 
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Lettuce230x110.jpg"))); // NOI18N
+        veggiePanel.add(jLabel24);
+        jLabel24.setBounds(380, 290, 230, 100);
+
         panelMenu.add(veggiePanel, "card2");
 
         sizePanel.setBackground(new java.awt.Color(32, 177, 74));
         sizePanel.setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/footlong.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/footlong.jpg"))); // NOI18N
         sizePanel.add(jLabel1);
         jLabel1.setBounds(370, 160, 250, 60);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/6inch.jpg"))); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/6inch.jpg"))); // NOI18N
         sizePanel.add(jLabel22);
         jLabel22.setBounds(50, 150, 200, 90);
 
         exitSize.setBackground(new java.awt.Color(255, 255, 255));
         exitSize.setForeground(new java.awt.Color(255, 51, 51));
-        exitSize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        exitSize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         exitSize.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitSizeActionPerformed(evt);
@@ -401,25 +406,25 @@ public class Order extends javax.swing.JFrame {
         breadPanel.setBackground(new java.awt.Color(32, 177, 74));
         breadPanel.setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Bread_wheat.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Bread_wheat.png"))); // NOI18N
         breadPanel.add(jLabel2);
         jLabel2.setBounds(30, 40, 230, 110);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/honey oat.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/honey oat.jpg"))); // NOI18N
         breadPanel.add(jLabel3);
         jLabel3.setBounds(380, 50, 220, 100);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ItalianBreadLoaf.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/ItalianBreadLoaf.jpg"))); // NOI18N
         breadPanel.add(jLabel4);
         jLabel4.setBounds(30, 220, 240, 110);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/parmesan.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/parmesan.png"))); // NOI18N
         breadPanel.add(jLabel5);
         jLabel5.setBounds(390, 240, 230, 90);
 
         exitBread.setBackground(new java.awt.Color(255, 255, 255));
         exitBread.setForeground(new java.awt.Color(255, 51, 51));
-        exitBread.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        exitBread.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         exitBread.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitBreadActionPerformed(evt);
@@ -492,21 +497,21 @@ public class Order extends javax.swing.JFrame {
         addonPanel.add(RBaddon5);
         RBaddon5.setBounds(500, 350, 130, 40);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 1.jpg"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Set 1.jpg"))); // NOI18N
         addonPanel.add(jLabel23);
-        jLabel23.setBounds(170, 50, 110, 130);
+        jLabel23.setBounds(160, 50, 110, 130);
 
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 4.jpg"))); // NOI18N
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Set 4.jpg"))); // NOI18N
         addonPanel.add(jLabel26);
-        jLabel26.setBounds(290, 230, 90, 130);
+        jLabel26.setBounds(270, 200, 100, 170);
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 3.jpg"))); // NOI18N
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Set 3.jpg"))); // NOI18N
         addonPanel.add(jLabel25);
         jLabel25.setBounds(60, 230, 110, 130);
 
         exitAddon.setBackground(new java.awt.Color(255, 255, 255));
         exitAddon.setForeground(new java.awt.Color(255, 51, 51));
-        exitAddon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        exitAddon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         exitAddon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitAddonActionPerformed(evt);
@@ -515,13 +520,13 @@ public class Order extends javax.swing.JFrame {
         addonPanel.add(exitAddon);
         exitAddon.setBounds(646, 11, 50, 50);
 
-        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Set 2.jpg"))); // NOI18N
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Set 2.jpg"))); // NOI18N
         addonPanel.add(jLabel31);
         jLabel31.setBounds(410, 50, 110, 130);
 
-        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/x.png"))); // NOI18N
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Chicken Slice.jpg"))); // NOI18N
         addonPanel.add(jLabel32);
-        jLabel32.setBounds(490, 220, 130, 150);
+        jLabel32.setBounds(430, 250, 220, 110);
 
         jLabel38.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel38.setText("Make it a meal with only add more RM2.00.");
@@ -574,33 +579,33 @@ public class Order extends javax.swing.JFrame {
         flavourPanel.add(jLabel35);
         jLabel35.setBounds(10, 10, 250, 17);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Chicken Slice.jpg"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Chicken Slice.jpg"))); // NOI18N
         flavourPanel.add(jLabel6);
         jLabel6.setBounds(20, 20, 230, 110);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Roast Beef.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Roast Beef.jpg"))); // NOI18N
         flavourPanel.add(jLabel7);
         jLabel7.setBounds(380, 20, 220, 110);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Steak & Cheese.jpg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Steak & Cheese.jpg"))); // NOI18N
         flavourPanel.add(jLabel8);
         jLabel8.setBounds(20, 160, 230, 100);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Tuna.jpg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Tuna.jpg"))); // NOI18N
         flavourPanel.add(jLabel9);
         jLabel9.setBounds(370, 160, 220, 110);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Turkey Breast.jpg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Turkey Breast.jpg"))); // NOI18N
         flavourPanel.add(jLabel10);
         jLabel10.setBounds(20, 300, 220, 110);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Veggie Delite.jpg"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Veggie Delite.jpg"))); // NOI18N
         flavourPanel.add(jLabel11);
         jLabel11.setBounds(380, 300, 230, 110);
 
         exitFlavour.setBackground(new java.awt.Color(255, 255, 255));
         exitFlavour.setForeground(new java.awt.Color(255, 51, 51));
-        exitFlavour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        exitFlavour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         exitFlavour.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitFlavourActionPerformed(evt);
@@ -614,25 +619,25 @@ public class Order extends javax.swing.JFrame {
         sosPanel.setBackground(new java.awt.Color(32, 177, 74));
         sosPanel.setLayout(null);
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cili.png"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/cili.png"))); // NOI18N
         sosPanel.add(jLabel18);
         jLabel18.setBounds(30, 70, 160, 110);
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mayonis.jpg"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/mayonis.jpg"))); // NOI18N
         sosPanel.add(jLabel19);
         jLabel19.setBounds(360, 60, 190, 130);
 
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tomato.jpg"))); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/tomato.jpg"))); // NOI18N
         sosPanel.add(jLabel20);
         jLabel20.setBounds(80, 250, 100, 110);
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/thousandIsland.jpg"))); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/thousandIsland.jpg"))); // NOI18N
         sosPanel.add(jLabel21);
         jLabel21.setBounds(370, 240, 170, 130);
 
         exitSos.setBackground(new java.awt.Color(255, 255, 255));
         exitSos.setForeground(new java.awt.Color(255, 51, 51));
-        exitSos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        exitSos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         exitSos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 exitSosActionPerformed(evt);
@@ -675,7 +680,7 @@ public class Order extends javax.swing.JFrame {
         cartPanel.setBackground(new java.awt.Color(32, 177, 74));
         cartPanel.setLayout(null);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -753,43 +758,43 @@ public class Order extends javax.swing.JFrame {
         {
             if(addonSelection[i].equals("Set 1"))
             {            
-                pictureTop[i] = new ImageIcon(getClass().getResource("/Set 1.jpg"));              
+                pictureTop[i] = new ImageIcon(getClass().getResource("/image/Set 1.jpg"));              
             }
             else if(Order.addonSelection[i].equals("Set 2"))
             {            
-                pictureTop[i] = new ImageIcon(getClass().getResource("/Set 2.jpg"));              
+                pictureTop[i] = new ImageIcon(getClass().getResource("/image/Set 2.jpg"));              
             }
             else if(Order.addonSelection[i].equals("Set 3"))
             {
-                pictureTop[i] = new ImageIcon(getClass().getResource("/Set 3.jpg"));              
+                pictureTop[i] = new ImageIcon(getClass().getResource("/image/Set 3.jpg"));              
             }
             else if(Order.addonSelection[i].equals("Set 4"))
             {
-                pictureTop[i] = new ImageIcon(getClass().getResource("/Set 4.jpg"));              
+                pictureTop[i] = new ImageIcon(getClass().getResource("/image/Set 4.jpg"));              
             }
             if(Order.flavourSelection[i].equals("Chicken Slice"))
             {
-                pictureBottom[i] = new ImageIcon(getClass().getResource("/Chicken Slice.jpg"));              
+                pictureBottom[i] = new ImageIcon(getClass().getResource("/image/Chicken Slice.jpg"));              
             }
             else if(Order.flavourSelection[i].equals("Roast Beef"))
             {
-                pictureBottom[i] = new ImageIcon(getClass().getResource("/Roast Beef.jpg"));              
+                pictureBottom[i] = new ImageIcon(getClass().getResource("/image/Roast Beef.jpg"));              
             }
             else if(Order.flavourSelection[i].equals("Steak & Cheese"))
             {
-                pictureBottom[i] = new ImageIcon(getClass().getResource("/Steak & Cheese.jpg"));              
+                pictureBottom[i] = new ImageIcon(getClass().getResource("/image/Steak & Cheese.jpg"));              
             }
             else if(Order.flavourSelection[i].equals("Tuna"))
             {
-                pictureBottom[i] = new ImageIcon(getClass().getResource("/Tuna.jpg"));              
+                pictureBottom[i] = new ImageIcon(getClass().getResource("/image/Tuna.jpg"));              
             }
             else if(Order.flavourSelection[i].equals("Turkey Breast"))
             {
-                pictureBottom[i] = new ImageIcon(getClass().getResource("/Turkey Breast.jpg"));              
+                pictureBottom[i] = new ImageIcon(getClass().getResource("/image/Turkey Breast.jpg"));              
             }
             else if(Order.flavourSelection[i].equals("Veggie Delite"))
             {
-                pictureBottom[i] = new ImageIcon(getClass().getResource("/Veggie Delite.jpg"));              
+                pictureBottom[i] = new ImageIcon(getClass().getResource("/image/Veggie Delite.jpg"));              
             }
         }        
     }
@@ -928,7 +933,7 @@ public class Order extends javax.swing.JFrame {
     }
     public void icon() // Interface
     {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/S.jpeg")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/image/S.png")));
     }
     private void sizeSelectedFalse() // Interface
     {
@@ -1251,6 +1256,7 @@ public class Order extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;

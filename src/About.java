@@ -60,7 +60,7 @@ public class About extends javax.swing.JFrame {
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 30, 900, 60);
 
-        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonHome.png"))); // NOI18N
+        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonHome.png"))); // NOI18N
         homeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 homeButtonActionPerformed(evt);
@@ -85,7 +85,7 @@ public class About extends javax.swing.JFrame {
         devNatasha.setBackground(new java.awt.Color(32, 177, 74));
         devNatasha.setLayout(null);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/natasha.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/natasha.jpg"))); // NOI18N
         devNatasha.add(jLabel2);
         jLabel2.setBounds(0, 0, 240, 300);
 
@@ -94,7 +94,7 @@ public class About extends javax.swing.JFrame {
         devAliya.setBackground(new java.awt.Color(32, 177, 74));
         devAliya.setLayout(null);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aliya.jpg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/aliya.jpg"))); // NOI18N
         devAliya.add(jLabel3);
         jLabel3.setBounds(0, 0, 240, 290);
 
@@ -103,7 +103,7 @@ public class About extends javax.swing.JFrame {
         devIkhwan.setBackground(new java.awt.Color(32, 177, 74));
         devIkhwan.setLayout(null);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ikhwan.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/ikhwan.jpg"))); // NOI18N
         devIkhwan.add(jLabel4);
         jLabel4.setBounds(0, 0, 240, 300);
 
@@ -113,7 +113,7 @@ public class About extends javax.swing.JFrame {
         jPanel3.setBounds(40, 40, 250, 300);
 
         buttonLeft.setFont(new java.awt.Font("Segoe UI Emoji", 1, 11)); // NOI18N
-        buttonLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonLeft.png"))); // NOI18N
+        buttonLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonLeft.png"))); // NOI18N
         buttonLeft.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonLeftActionPerformed(evt);
@@ -123,7 +123,7 @@ public class About extends javax.swing.JFrame {
         buttonLeft.setBounds(700, 310, 50, 50);
 
         buttonRight.setFont(new java.awt.Font("Segoe UI Emoji", 1, 11)); // NOI18N
-        buttonRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonRight.png"))); // NOI18N
+        buttonRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonRight.png"))); // NOI18N
         buttonRight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonRightActionPerformed(evt);
@@ -134,7 +134,7 @@ public class About extends javax.swing.JFrame {
 
         buttonExit.setBackground(new java.awt.Color(255, 255, 255));
         buttonExit.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        buttonExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        buttonExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         buttonExit.setToolTipText("Close");
         buttonExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,7 +178,7 @@ public class About extends javax.swing.JFrame {
     
     public void icon() // Interface.
     {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/S.jpeg")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/image/S.png")));
     }    
     public void dev() // Display image.
     {

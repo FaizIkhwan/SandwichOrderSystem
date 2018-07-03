@@ -17,10 +17,11 @@ public class HomePage extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         buttonEatIn = new javax.swing.JButton();
         buttonTakeAway = new javax.swing.JButton();
         buttonHelp = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Subway Order System");
@@ -34,11 +35,6 @@ public class HomePage extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(32, 177, 74));
         jPanel2.setBorder(javax.swing.BorderFactory.createMatteBorder(4, 4, 4, 4, new java.awt.Color(255, 255, 51)));
         jPanel2.setLayout(null);
-
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/background.png"))); // NOI18N
-        jPanel2.add(jLabel1);
-        jLabel1.setBounds(80, 20, 650, 270);
 
         buttonEatIn.setBackground(new java.awt.Color(255, 255, 255));
         buttonEatIn.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -62,7 +58,7 @@ public class HomePage extends javax.swing.JFrame {
         jPanel2.add(buttonTakeAway);
         buttonTakeAway.setBounds(520, 370, 120, 25);
 
-        buttonHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonHelp.png"))); // NOI18N
+        buttonHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonHelp.png"))); // NOI18N
         buttonHelp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonHelpActionPerformed(evt);
@@ -70,6 +66,19 @@ public class HomePage extends javax.swing.JFrame {
         });
         jPanel2.add(buttonHelp);
         buttonHelp.setBounds(20, 490, 50, 50);
+
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("<html>\nWelcome to \n</html>");
+        jPanel2.add(jLabel2);
+        jLabel2.setBounds(310, 50, 210, 80);
+
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Sandwich Order System");
+        jPanel2.add(jLabel1);
+        jLabel1.setBounds(230, 120, 420, 120);
 
         jPanel1.add(jPanel2);
         jPanel2.setBounds(20, 20, 860, 560);
@@ -90,7 +99,7 @@ public class HomePage extends javax.swing.JFrame {
 
     public void icon() // Interface.
     {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/S.jpeg")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/image/S.png")));
     }        
     private void buttonHelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonHelpActionPerformed
         // TODO add your handling code here:
@@ -150,6 +159,7 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JButton buttonHelp;
     private javax.swing.JButton buttonTakeAway;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables

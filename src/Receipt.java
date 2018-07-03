@@ -15,7 +15,7 @@ public class Receipt extends javax.swing.JFrame {
     }    
     public void icon() // Interface.
     {
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/S.jpeg")));
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/image/S.png")));
     }  
     public void printReceipt() // Print receipt.
     {
@@ -106,7 +106,7 @@ public class Receipt extends javax.swing.JFrame {
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 30, 900, 60);
 
-        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonHome.png"))); // NOI18N
+        homeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonHome.png"))); // NOI18N
         homeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 homeButtonActionPerformed(evt);
@@ -115,7 +115,7 @@ public class Receipt extends javax.swing.JFrame {
         jPanel1.add(homeButton);
         homeButton.setBounds(20, 530, 50, 50);
 
-        buttonExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonX.png"))); // NOI18N
+        buttonExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonX.png"))); // NOI18N
         buttonExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonExitActionPerformed(evt);
@@ -173,7 +173,7 @@ public class Receipt extends javax.swing.JFrame {
         jPanel1.add(panelGambar);
         panelGambar.setBounds(60, 140, 260, 380);
 
-        buttonLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonLeft.png"))); // NOI18N
+        buttonLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonLeft.png"))); // NOI18N
         buttonLeft.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonLeftActionPerformed(evt);
@@ -182,7 +182,7 @@ public class Receipt extends javax.swing.JFrame {
         jPanel1.add(buttonLeft);
         buttonLeft.setBounds(130, 530, 50, 50);
 
-        buttonRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/buttonRight.png"))); // NOI18N
+        buttonRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/buttonRight.png"))); // NOI18N
         buttonRight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonRightActionPerformed(evt);
